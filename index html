@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom's Special Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <!-- Perfume-themed Background -->
+    </div>
+
+    <!-- Interactive Animated Dog/Heart -->
+    <div class="interactive-icon" onclick="showPoem()">
+        <img src="dog_animation.gif" alt="Animated Dog" class="icon">
+    </div>
+
+    <!-- Poem Pop-Up -->
+    <div id="poemPopup" class="popup">
+        <div class="popup-content">
+            <p>
+                A wag of the tail, a bark that’s so true,  
+                Every day, I see the kindness in you.  
+                You walk with love, your heart so wide,  
+                For every soul, you’re a gentle guide.
+            </p>
+            <button onclick="hidePoem()">Close</button>
+        </div>
+    </div>
+
+    <!-- Personalized Message Section -->
+    <div class="message-section">
+        <h2>Dear Mom,</h2>
+        <p>Your personalized heartfelt message here.</p>
+    </div>
+
+    <!-- Memory Lane Section -->
+    <div class="memory-lane">
+        <h3>Memory Lane</h3>
+        <div class="carousel">
+            <img src="photo1.jpg" alt="Memory 1">
+            <img src="photo2.jpg" alt="Memory 2">
+            <!-- Add more photos -->
+        </div>
+    </div>
+
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="background_music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
